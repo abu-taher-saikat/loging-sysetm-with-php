@@ -1,0 +1,63 @@
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* float: left; */
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#level{
+    display: inline;
+}
+
+form{
+    padding-top: 20px;
+}
+
+#pad{
+    padding-top: 20px;
+}
+
+
+button[type='submit']{
+    outline: none;
+    border: none;
+}
+
+
+/* registiaion form  */
+#reg-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#reg-form input{
+    /* display: block */
+    /* display: inline-block; */
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #f4f4f4;
+  
+}
